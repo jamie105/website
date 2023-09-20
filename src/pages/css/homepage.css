@@ -1,0 +1,143 @@
+.content {
+    min-height: 100vh;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%; /* Adjust the width as needed */
+}
+
+/* Style the profile container */
+.profile {
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text within child elements */
+    margin-top: -130px;
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+}
+
+/* Style the description */
+.description {
+    max-width: 100%; /* Allow the description to take full width if needed */
+    overflow: hidden; /* Hide overflow */
+    margin: 10px 0; /* Add margin for spacing */
+}
+
+.links {
+    position: absolute;
+    bottom: 25px;
+}
+
+.comments{
+    position: absolute;
+    bottom: 130px;
+    line-height: 0px;
+    transition: all 0.35s ease-in-out;
+}
+
+.link-button{
+    background: transparent;
+    border: 0px;
+    transition: all 0.15s ease-in-out;
+}
+
+.link-button:hover{
+    scale: 105%;
+}
+
+.scroll-list {
+  width: 100%;
+  max-width: 500px;
+  padding: 25px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: 0;
+}
+@media screen and (max-width: 768px) {
+  .scroll-list {
+    margin-top: 20px;
+  }
+}
+
+.scroll-list__wrp {
+  width: 100%;
+  height: 600px;
+  padding: 30px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+.scroll-list__wrp .scrollbar-track {
+  display: none !important;
+}
+@media screen and (max-width: 768px) {
+  .scroll-list__wrp {
+    padding: 25px;
+  }
+}
+
+.scroll-list__item {
+  width: 100%;
+  height: 155px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  transition: all 0.35s ease-in-out;
+  opacity: 0;
+  transform: scale(0.7);
+  position: relative;
+}
+
+.scroll-list__item:hover {
+    scale: 105%;
+  }
+
+.item-icon-box {
+  width: 155px; /* Width same as the .scroll-list__item's height */
+  height: 155px; /* Height same as the .scroll-list__item's height */
+  transition: all 0.35s ease-in-out;
+  position: absolute;
+  border-radius: 8px; /* Same border radius as the .scroll-list__item */
+}
+
+.item-title {
+  text-align: center top;
+}
+
+.item-text-box {
+  margin-left: 160px;
+  width: 335px;
+  height: 155px;
+  text-align: center;
+}
+
+.scroll-list__item.item-hide {
+  opacity: 0;
+  transform: scale(0.7);
+}
+
+.scroll-list__item.item-focus {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.scroll-list__item.item-next {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.scroll-list__item.item-next + .scroll-list__item {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.scroll-list__item:last-child {
+  margin-bottom: 155px;
+}

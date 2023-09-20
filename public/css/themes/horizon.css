@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&subset=latin-ext");
+
+body {
+  background: #333;
+}
+
+.wrapper {
+  background-image: linear-gradient(-225deg, #4b0000 0%, #940000 29%, #d45500 67%, #db8f00 100%);
+}
+
+.theme-selector-button {
+    box-shadow: 7px 7px 46px 7px rgba(108, 184, 171, 0.45);
+    color: white;
+}
+
+.profile {
+    color: white;
+}
+
+.page-selector-button {
+    box-shadow: 7px 7px 46px 7px rgba(108, 184, 171, 0.45);
+    background-image: linear-gradient(147deg, #940000 0%, #ce8600 74%); /* Horizon Theme (Red and Orange) */
+    color: white;
+}
+
+.page-selector-button:hover {
+    box-shadow: 7px 7px 46px 7px rgba(108, 184, 171, 0.45);
+    background-image: linear-gradient(147deg, #720000 0%, #a66700 74%); /* Dark Horizon Theme (Red and Orange) */
+    color: white;
+}
+
+.scroll-list__wrp {
+    box-shadow: 7px 7px 46px 7px rgba(108, 184, 171, 0.45);
+  background: #000000; /* Black Background */
+  background-image: linear-gradient(147deg, #940000 0%, #ce8600 74%); /* Horizon Theme (Red and Orange) */
+}
+
+.scroll-list__item {
+  color: white;
+  background-image: linear-gradient(147deg, #ce8600 0%, #940000 74%); /* Horizon Theme (Red and Orange) */
+  box-shadow: 0px 7px 16px 0px rgba(41, 53, 108, 0.25);
+}
+
+.item-icon-box {
+  color: white;
+  background-image: linear-gradient(147deg, #ce8600 0%, #940000 74%); /* Horizon Theme (Red and Orange) */
+}

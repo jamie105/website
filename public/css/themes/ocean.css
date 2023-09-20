@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&subset=latin-ext");
+
+body {
+  background: #003eb3;
+}
+
+.wrapper {
+  background-image: linear-gradient(-225deg, #001124 0%, #002857 29%, #037c8b 67%, #00a4b9 100%);
+}
+
+.theme-selector-button {
+    box-shadow: 7px 7px 46px 7px rgba(0, 27, 150, 0.685);
+    color: white;
+}
+
+.profile {
+    color: white;
+}
+
+.page-selector-button {
+    box-shadow: 7px 7px 46px 7px rgba(0, 27, 150, 0.685);
+    background-image: linear-gradient(147deg, #002044 0%, #00a4b9 74%); /* Ocean Theme (Blue and Light Blue) */
+    color: white;
+}
+
+.page-selector-button:hover {
+    box-shadow: 7px 7px 46px 7px rgba(0, 27, 150, 0.685);
+    background-image: linear-gradient(147deg, #001122 0%, #006688 74%); /* Dark Ocean Theme (Blue and Light Blue) */
+    color: white;
+}
+
+.scroll-list__wrp {
+    box-shadow: 7px 7px 46px 7px rgba(0, 27, 150, 0.685);
+  background: #00a4b9; /* Light Blue Background */
+  background-image: linear-gradient(147deg, #002044 0%, #00a4b9 74%); /* Ocean Theme (Blue and Light Blue) */
+}
+
+.scroll-list__item {
+  color: white;
+  background-image: linear-gradient(147deg, #00a4b9 0%, #002044 74%); /* Ocean Theme (Blue and Light Blue) */
+  box-shadow: 0px 7px 16px 0px rgba(41, 53, 108, 0.25);
+}
+
+.item-icon-box {
+  color: white;
+  background-image: linear-gradient(147deg, #00a4b9 0%, #002044 74%); /* Ocean Theme (Blue and Light Blue) */
+}
+

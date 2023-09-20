@@ -1,0 +1,12 @@
+https://codepen.io/dev_loop/pen/MWKbJmO
+^ use for partners page
+
+https://codepen.io/supah/pen/xxJMbbg
+^ use for member personal page
+
+https://codepen.io/petegarvin1/pen/YzWBbRx
+^ use this for members page
+
+
+rename about to history
+add projects page

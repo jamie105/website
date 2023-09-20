@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&subset=latin-ext");
+
+body {
+  background: #333;
+}
+
+.wrapper {
+  background-image: linear-gradient(-225deg, #14000e 0%, #380027 29%, #5c0054 67%, #a30096 100%);
+}
+
+.theme-selector-button {
+    box-shadow: 7px 7px 46px 7px rgba(108, 41, 99, 0.45);
+    color: white;
+}
+
+.profile {
+    color: white;
+}
+
+.page-selector-button {
+    box-shadow: 7px 7px 46px 7px rgba(108, 41, 99, 0.45);
+    background-image: linear-gradient(147deg, #240019 0%, #910085 74%); /* Galaxy Theme (Dark Purple and Dark Pink) */
+    color: white;
+}
+
+.page-selector-button:hover {
+    box-shadow: 7px 7px 46px 7px rgba(108, 41, 99, 0.45);
+    background-image: linear-gradient(147deg, #160013 0%, #6d0052 74%); /* Dark Galaxy Theme (Darker Purple and Darker Pink) */
+    color: white;
+}
+
+.scroll-list__wrp {
+    box-shadow: 7px 7px 46px 7px rgba(108, 41, 99, 0.45);
+  background: #000000; /* Black Background */
+  background-image: linear-gradient(147deg, #240019 0%, #910085 74%); /* Galaxy Theme (Dark Purple and Dark Pink) */
+}
+
+.scroll-list__item {
+  color: white;
+  background-image: linear-gradient(147deg, #910085 0%, #240019 74%); /* Galaxy Theme (Dark Purple and Dark Pink) */
+  box-shadow: 0px 7px 16px 0px rgba(41, 53, 108, 0.25);
+}
+
+.item-icon-box {
+  color: white;
+  background-image: linear-gradient(147deg, #910085 0%, #240019 74%); /* Galaxy Theme (Dark Purple and Dark Pink) */
+}

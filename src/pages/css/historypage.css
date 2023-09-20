@@ -1,0 +1,31 @@
+.about-container {
+    align-items: center;
+    position: absolute;
+    width: 60%;
+    height: 80%;
+    left: 20%;
+    top: 10%;
+}
+
+.about-logo {
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    height: 50%;
+}
+
+.about-text {
+    top: 50%;
+    position: absolute;
+}
+
+.about-title {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.about-description {
+    color: white;
+    text-align: center;
+}
